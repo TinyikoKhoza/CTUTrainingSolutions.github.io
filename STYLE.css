@@ -1,0 +1,380 @@
+body{
+    background-position: center;
+    background-image: url(Images/ba.jpg ) ;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 89vh;
+}
+
+.logo{
+    font-family: Arial;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    color: black;
+    padding: 7px 15px;
+}
+.logo a{
+    color: rgb(0, 87, 141);
+    padding: 7px 15px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+.logo a:hover{
+    color: #c822de;
+    font-weight: bold;
+
+}
+#message{
+    font-family: Arial;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    word-spacing: 2px;
+    text-align: center;
+}
+#msg{
+    color: rgb(255, 255, 255) ;
+    font-family: monospace;
+    padding-left: 50px;
+    font-size: larger;
+}
+#Heading{
+    font-family: monospace;
+    color: rgb(241, 241, 241);
+    font-size: large;
+}
+/*NAVIGATION BAR*/
+.nav{
+    position: fixed;
+    background-color: gray;
+    border-radius: 60%;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-family: Arial;
+}
+.nav .container{
+    display: flex;
+    align-items: center;
+
+    transition: all 0.3s ease-in-out;
+}
+.nav ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+
+}
+.nav a{
+    color:rgb(0, 87, 141);
+    padding: 7px 15px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+.nav .active{
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(177, 49, 49, 0.3);
+}
+.nav .active a{
+    color: #000;
+}
+
+.nav a:hover{
+    color: #c822de;
+    font-weight: bold;
+
+}
+.homemain{
+    padding-top: 150px;
+}
+
+
+.con p{
+    color: #000000;
+    line-height: 20px;
+    letter-spacing: 1.2px;
+    font-family: Arial;
+    padding-left: 50px;
+    font-size: large;
+}
+img{
+    background-position: center;
+    margin: 20px 80px;
+    box-shadow: 5px 3px 8px lightcoral;
+}
+
+/*TimeTable Table*/
+.table{
+
+    text-align: center;
+    margin-left: 130px;
+}
+#timeT{
+    font-family: monospace;
+    color:rgb(240, 175, 175);
+    font-size: 50px;
+    text-shadow:black 5px 5px 6px;
+    text-align: center;
+}
+
+/*Discussion*/
+.msgspace h2{
+    color: wheat;
+    display: flex;
+    padding-top: 1px;
+    justify-content: center;
+    text-align: center;
+}
+.msgspace{
+    background-color: rgb(49, 49, 79);
+    width: 850px;
+    height: 450px;
+    margin-left: 150px;
+    word-spacing: 5px;
+    border-radius: 20px;
+    justify-content: center;
+    text-align: center;
+}
+.msgspace textarea{
+    height: 130px;
+    width: 290px;
+}
+.msgspace #button{
+    color: white;
+    background-color:black;
+    border-radius: 6px;
+    font-weight: 100px;
+    text-align: center;
+}
+.msgspace #button :hover{
+    cursor: pointer;
+}
+
+/*About Us*/
+
+img{
+    vertical-align: middle;}
+.mySlides{
+        display: none;
+    
+}
+.slideshow-container{
+    max-width: 90vw;
+    margin: auto;
+    position: relative;
+    z-index: 0;
+}
+.dot{
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: rgb(204, 55, 206);
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    box-shadow: 5px 2px 5px rgb(25, 53, 18);
+}
+.active{
+    background-color: rgb(31, 217, 189);
+}
+img{
+    width: 30%;
+    height: 30vh;
+    justify-content: center;
+}
+.h{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#m{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(146, 223, 173);
+}
+@keyframes fade{
+    from{opacity: .4;}
+    to{opacity: 1;}
+}
+.fade{
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+.Table2{
+    border: 1px black;
+}
+
+/*Share Resources*/
+.share{
+    padding-top: 80px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0) ;
+    text-align: center;
+    align-items: center;
+    
+}
+.share #upload{
+    border: 2px;
+    background: black;
+    border-radius: 10%;
+    }
+
+.share .main{
+    width: 460px;
+    border:2px solid black;
+    padding: 70px;
+    background-color: rgb(91, 108, 103);
+    color: rgb(232, 232, 232);
+    border-radius: 12px;
+    padding-top: 50px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 30px;
+    margin: 50px;
+    margin-left: 450px;
+} 
+
+
+    
+
+#Heading{
+    font-size:large;
+    font-family: Arial;
+    color: blue;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+#paragraph{
+    font-family: Arial;
+    color: rgb(241, 241, 254);
+    padding-left: 20px;
+}
+
+#message2{
+    size:10%;
+    padding-top:30px;
+    padding-left: 90px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#discussion{
+    width: 70%;
+    height: 70%;
+    padding:10px;
+    background: rgb(196, 175, 175);
+    background-size: 1px;
+}
+
+
+/*Contact Us Page*/
+
+#icons{
+    size-adjust: 60px;
+    font-size:xx-large;
+    inline-size: 20px;
+    margin-left: 45%;
+    letter-spacing: 5px;
+    display: inline;
+
+}
+#icons :hover{
+    cursor: pointer;
+    transition: 0.2s;
+}
+.copy{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: Arial;
+    font-size: medium;
+}
+.formControl{
+    margin: 50px auto;
+    background-color: #eee;
+    border-radius: 15px;
+    width: 50%;
+    height: auto;
+    padding: 40px;
+}
+.number{
+    background-color: rgb(17, 37, 37);
+    color: #ffffff;
+    font-size: 20px;
+    padding: 1px;
+    margin-right: 20px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50%;
+}
+.formControl input{
+    padding: 10px;
+    width: 100%;
+    height: 20px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(221, 221,  221);
+}
+.formControl input:invalid{
+    border: 1px solid red;
+}
+.formControl input:valid{
+    border: 1px solid green;
+}
+.formControl h1{
+    margin: 10px 0;
+}
+.formControl select{
+    width: 100%;
+    height: 30px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(221, 221,  221);
+    padding: 5px;
+}
+.formControl textarea{
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(221, 221,  221);
+    padding: 10px;
+    width: 100%;
+    margin: 10px 0;
+}
+.Terms{
+    height: 25vh;
+    background-color: rgb(221, 221,  221);
+    padding: 20px;
+}
+.Terms a{
+    color: black;
+}
+.Terms input{
+    margin: 10px;
+}
+.Terms button{
+    padding: 20px 0;
+    width: 100%;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: -5px;
+    transition-duration: 0.2s;
+}
+.Terms button:hover{
+    background-color: rgb(87, 87, 87);
+
+}
+center h1{
+    font-size: 40px;
+
+}
