@@ -197,7 +197,7 @@ img{
 #m{
     text-align: center;
     font-size: 20px;
-    color: white;
+    color: black;
 }
 @keyframes fade{
     from{opacity: .4;}
